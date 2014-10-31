@@ -55,6 +55,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
 export PATH=/opt/boxen/goenv/bin:$PATH
 export GOPATH="$HOME/src/go"
 export GOENV_ROOT=/opt/boxen/goenv
+export CHGO_ROOT=/usr
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
