@@ -52,7 +52,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
-export GOPATH="/Users/$USER/src/go"
+export PATH=/opt/boxen/goenv/bin:$PATH
+export GOPATH="$HOME/src/go"
+export GOENV_ROOT=/opt/boxen/goenv
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
