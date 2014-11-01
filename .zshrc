@@ -86,4 +86,6 @@ export CHGO_ROOT=/usr
 alias vi="mvim -v"
 alias vim="mvim -v"
 
+ulimit -c unlimited
+
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
