@@ -6,6 +6,7 @@ bundle_dir = "/Users/#{ENV['USER']}/.vim/bundle"
 
 repos = %w{
   jistr/vim-nerdtree-tabs
+  editorconfig/editorconfig-vim
   digitaltoad/vim-jade
   majutsushi/tagbar
   rodjek/vim-puppet
