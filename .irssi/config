@@ -107,7 +107,7 @@ channels = (
     autojoin = "yes";
   },
   {
-    name = "#security";
+    name = "##security";
     chatnet = "Freenode";
     autojoin = "yes";
   },
