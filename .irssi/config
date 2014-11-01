@@ -101,8 +101,16 @@ chatnets = {
 };
 
 channels = (
-  { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
-  { name = "silc"; chatnet = "silc"; autojoin = "No"; },
+  {
+    name = "#crypto";
+    chatnet = "Freenode";
+    autojoin = "yes";
+  },
+  {
+    name = "#security";
+    chatnet = "Freenode";
+    autojoin = "yes";
+  },
   {
     name = "#emberjs";
     chatnet = "Freenode";
