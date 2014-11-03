@@ -112,6 +112,11 @@ channels = (
     autojoin = "yes";
   },
   {
+    name = "#reddit";
+    chatnet = "Freenode";
+    autojoin = "yes";
+  },
+  {
     name = "#emberjs";
     chatnet = "Freenode";
     autojoin = "yes";
