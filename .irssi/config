@@ -297,5 +297,5 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = { theme = "xchat"; };
-  "perl/core/scripts" = { notifier_on_regex = ".*"; };
+  "perl/core/scripts" = { notifier_channel_regex = "redbeardimweird"; };
 };
