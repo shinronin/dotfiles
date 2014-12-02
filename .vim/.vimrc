@@ -60,7 +60,7 @@ nmap <C-t> :TagbarToggle<CR>
 " Ctrlp
 " https://github.com/kien/ctrlp.vim
 let g:ctrlp_working_path_mode = 0 " Turn off automatically finding a directory to search in. This allows a .ctrlp file to tell where to start the search
-let g:ctrlp_custom_ignore = '\v[\/](bower_components|node_modules|tmp|log|target|dist)|(\.(swp|ico|git|svn))$'
+let g:ctrlp_custom_ignore = '\v[\/](bower_components|node_modules|tmp|log|target|dist|doc)|(\.(swp|ico|git|svn))$'
 
 
 " NERDTree
