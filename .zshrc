@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="clean"
+ZSH_THEME="sunrise"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -52,10 +52,8 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
-export PATH=/opt/boxen/goenv/bin:$PATH
 export GOPATH="$HOME/src/go"
-export GOENV_ROOT=/opt/boxen/goenv
-export CHGO_ROOT=/usr
+export PATH=$PATH:$GOPATH/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -83,13 +81,12 @@ export CHGO_ROOT=/usr
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vi="mvim -v"
-alias vim="mvim -v"
+alias vi="mvim"
+alias vim="mvim"
 
 ulimit -c unlimited
 
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
-source $CHGO_ROOT/share/chgo/auto.sh
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
