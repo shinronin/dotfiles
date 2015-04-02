@@ -33,6 +33,7 @@ autocmd BufNewFile,BufRead Gruntfile set filetype=javascript
 autocmd BufNewFile,BufRead Capfile set filetype=ruby
 autocmd BufNewFile,BufRead Puppetfile set filetype=ruby
 autocmd BufNewFile,BufRead Rakefile set filetype=ruby
+autocmd BufNewFile,BufRead Berksfile set filetype=ruby
 autocmd BufNewFile,BufRead Guardfile set filetype=ruby
 autocmd BufNewFile,BufRead Podfile set filetype=ruby
 au BufRead,BufNewFile ~/Documents/Coding/gt-ui/* setl et sw=4 ts=4
@@ -60,7 +61,7 @@ nmap <C-t> :TagbarToggle<CR>
 " Ctrlp
 " https://github.com/kien/ctrlp.vim
 let g:ctrlp_working_path_mode = 0 " Turn off automatically finding a directory to search in. This allows a .ctrlp file to tell where to start the search
-let g:ctrlp_custom_ignore = '\v[\/](bower_components|node_modules|tmp|log|target|dist|doc)|(\.(swp|ico|git|svn))$'
+let g:ctrlp_custom_ignore = '\v[\/](doc|cordova|bower_components|node_modules|tmp|log|target|dist)|(\.(swp|ico|git|svn))$'
 
 
 " NERDTree

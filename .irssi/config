@@ -297,5 +297,8 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = { theme = "xchat"; };
-  "perl/core/scripts" = { notifier_channel_regex = "redbeardimweird"; };
+  "perl/core/scripts" = {
+    notifier_channel_regex = "redbeardimweird";
+    notifier_on_regex = "(thejchap|keck|jamesecahill)";
+  };
 };

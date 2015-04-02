@@ -61,7 +61,7 @@ export PATH=$PATH:$GOPATH/bin
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+#   export EDITOa='vim'
 # else
 #   export EDITOR='mvim'
 # fi
@@ -81,8 +81,9 @@ export PATH=$PATH:$GOPATH/bin
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vi="mvim"
-alias vim="mvim"
+alias rake='noglob rake'
+alias heroku='noglob heroku'
+alias nmap='noglob nmap'
 
 ulimit -c unlimited
 
@@ -90,4 +91,11 @@ ulimit -c unlimited
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=$HOME/.chefdk/gem/ruby/2.1.0/bin:/opt/chefdk/bin:$PATH
 export TERM='xterm-256color'
+export ANDROID_HOME=/opt/boxen/homebrew/opt/android-sdk
+
+PERL_MB_OPT="--install_base \"/Users/justinchapman/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/justinchapman/perl5"; export PERL_MM_OPT;
+
+source ~/perl5/perlbrew/etc/bashrc
