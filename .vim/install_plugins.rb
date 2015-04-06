@@ -5,6 +5,7 @@ cmd = 'git clone '
 bundle_dir = "/Users/#{ENV['USER']}/.vim/bundle"
 
 repos = %w{
+  slim-template/vim-slim
   jistr/vim-nerdtree-tabs
   editorconfig/editorconfig-vim
   digitaltoad/vim-jade
