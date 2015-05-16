@@ -84,6 +84,7 @@ export PATH=$PATH:$GOPATH/bin
 alias rake='noglob rake'
 alias heroku='noglob heroku'
 alias nmap='noglob nmap'
+alias lynx_anon='torsocks lynx -noreferer https://check.torproject.org'
 
 ulimit -c unlimited
 
