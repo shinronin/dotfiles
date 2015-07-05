@@ -29,6 +29,7 @@ autocmd Filetype conf setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 autocmd Filetype scala setlocal ts=4 sts=4 sw=4 noexpandtab
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
+autocmd BufNewFile,BufRead *.rabl set filetype=ruby
 autocmd BufNewFile,BufRead Gruntfile set filetype=javascript
 autocmd BufNewFile,BufRead Capfile set filetype=ruby
 autocmd BufNewFile,BufRead Puppetfile set filetype=ruby
@@ -86,7 +87,14 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=white ctermbg=255
 
 " Settings for Airline (statusbar at the bottom)
 " https://github.com/bling/vim-airline
+"
+" Make sure non-ascii font in iterm is set to droid sans mono for powerline
+" too!
 let g:airline_powerline_fonts = 1   " Uses patched fonts so it's beautiful
+if !exists('g:airline_symbols')
+	let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
 let g:airline_theme='powerlineish'  " Set theme
 set laststatus=2                    " Always show the status bar
 
