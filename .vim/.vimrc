@@ -49,7 +49,7 @@ else
 endif
 
 " Font
-set guifont=Droid\ Sans\ Mono\ for\ Powerline:h26 " Not a system font. Will have to install from https://github.com/Lokaltog/powerline-fonts
+set guifont=Droid\ Sans\ Mono\ for\ Powerline:h24 " Not a system font. Will have to install from https://github.com/Lokaltog/powerline-fonts
 set linespace=2
 
 
