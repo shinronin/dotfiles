@@ -57,6 +57,10 @@ set linespace=2
 let mapleader = ","
 nmap <C-n> :NERDTreeTabsToggle<CR>
 nmap <C-t> :TagbarToggle<CR>
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
 
 " Ctrlp
@@ -98,6 +102,12 @@ let g:airline_symbols.space = "\ua0"
 let g:airline_theme='powerlineish'  " Set theme
 set laststatus=2                    " Always show the status bar
 
+" Rspec
+let g:rspec_runner = "os_x_iterm2"
+
+" Fugitive
+" https://github.com/tpope/vim-fugitive/issues/508
+set diffopt+=vertical
 
 " PATHOGEN
 " https://github.com/tpope/vim-pathogen

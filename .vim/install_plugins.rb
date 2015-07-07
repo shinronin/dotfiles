@@ -5,6 +5,7 @@ cmd = 'git clone '
 bundle_dir = "/Users/#{ENV['USER']}/.vim/bundle"
 
 repos = %w{
+  thoughtbot/vim-rspec
   afshinm/npm.vim
   ekalinin/Dockerfile.vim
   slim-template/vim-slim
